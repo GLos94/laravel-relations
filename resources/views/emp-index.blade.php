@@ -6,6 +6,12 @@
 
   <br></br>
 
+  <a href="{{ route ('emp.create') }}">
+    CREATE NEW EMPLOYEE
+  </a>
+
+  <br></br>
+
   <ul>
     @foreach ($emps as $emp)
 
