@@ -37,6 +37,13 @@
          </ul>
 
        </li>
+
+       <li>
+         <a href="{{ route ('emp.edit', $emp -> id)}}">EDIT</a><br>
+         <a href="{{ route ('emp.destroy', $emp -> id)}}">DELETE</a>
+
+       </li>
+
      </ul>
 
   <br></br>
